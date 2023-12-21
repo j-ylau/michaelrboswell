@@ -5,26 +5,28 @@ import React from 'react';
 const Detail = () => {
   return (
     <section className="flex flex-col md:flex-row items-center my-8 bg-gray-100 rounded-lg overflow-hidden">
-      <div className="md:flex md:flex-1">
-        <div className="relative w-full h-48 md:h-auto md:w-1/2">
-          {/* Replace with actual image paths */}
+      {/* Image container */}
+      <div className="relative md:flex-1">
+        {/* First image */}
+        <div className="absolute inset-0 w-full h-96">
           <Image
             src="/assets/hero1.png"
-            alt="Top Image"
+            alt="Background Image"
             layout="fill"
             objectFit="cover"
           />
         </div>
-        <div className="relative w-full h-48 md:h-auto md:w-1/2">
-          {/* Replace with actual image paths */}
+        {/* Second image, offset from the top */}
+        <div className="absolute left-0 md:left-20 top-20 w-full h-96">
           <Image
             src="/assets/hero2.png"
-            alt="Bottom Image"
+            alt="Foreground Image"
             layout="fill"
             objectFit="cover"
           />
         </div>
       </div>
+      {/* Text content */}
       <div className="flex-1 p-8">
         <div className="text-lg">
           <h2 className="text-2xl font-bold mb-4">In the realm of Climate Action Planning...</h2>
