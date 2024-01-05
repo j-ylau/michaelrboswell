@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Hero from './components/hero';
 import Details from './components/detail';
 import Map from './components/map';
+import Report from './components/reports';
 import Excel from './components/excel';
 import Footer from './components/footer';
 
@@ -15,7 +16,8 @@ export default function Home() {
       <Hero />
       {/* <Details /> */}
       <Map />
-      <Excel />
+      <Report />
+      {/* <Excel /> */}
       <Footer />
     </main>
   );
