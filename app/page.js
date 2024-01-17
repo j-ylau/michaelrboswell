@@ -3,20 +3,23 @@
 import React from 'react';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
+import HeroDivider from './components/herodivider';
 import Details from './components/detail';
 import Map from './components/map';
-import Report from './components/reports';
+import Folder from './components/folder';
+import Reports from './components/reports';
 import Excel from './components/excel';
 import Footer from './components/footer';
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen items-center justify-between p-0">
+    <main className="">
       <Navbar />
       <Hero />
-      {/* <Details /> */}
+      <HeroDivider />
+      <Folder />
       <Map />
-      <Report />
+      <Reports />
       {/* <Excel /> */}
       <Footer />
     </main>
