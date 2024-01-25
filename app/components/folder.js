@@ -34,14 +34,19 @@ const Report = () => {
         data-app-key="wdyjw3bny9d2584"
       ></script>
       {/* Dropbox Embed Container */}
-      <div id="dropbox-container" className="w-full">
+      <iframe
+        src="https://drive.google.com/embeddedfolderview?id=1IZQjPhrYBngL3Y86F5DI52tRIf2UGxZb#list"
+        style={{ width: "1000px", height: "1000px", border: "0" }}
+      ></iframe>
+
+      {/* <div id="dropbox-container" className="w-full">
         <a
           href="https://www.dropbox.com/scl/fi/gpcgfh2y4apqkteaxy4qp/California-CAP-Database-2023-1.xlsx?rlkey=5ind82cw4q2h6nh5zm8yjck5f&dl=0"
           class="dropbox-embed"
           data-height="1000px"
           data-width="100%"
         ></a>
-      </div>
+      </div> */}
     </section>
   );
 };
