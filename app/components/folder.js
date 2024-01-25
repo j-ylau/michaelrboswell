@@ -38,6 +38,12 @@ const Report = () => {
         src="https://drive.google.com/embeddedfolderview?id=1IZQjPhrYBngL3Y86F5DI52tRIf2UGxZb#list"
         style={{ width: "1000px", height: "1000px", border: "0" }}
       ></iframe>
+      <iframe
+        src="https://drive.google.com/embeddedfolderview?id=1IZQjPhrYBngL3Y86F5DI52tRIf2UGxZb#grid"
+        style={{ width: "1000px", height: "1000px", border: "0" }}
+      ></iframe>
+      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQR5z3wkt3bub3Ai4qoPmRz5HgVG_m0pSGeTqoEWpHwQfqH7l7U734LyUsr4qWsVwCl-_pykzZeXC1q/pubhtml?widget=true&amp;headers=false"></iframe>
+      {/* https://docs.google.com/document/d/1ZBWDXXhJH5bB0gKgmLIgCF4SSQ9sxF3JB76cpvXvKvY/edit?usp=sharing */}
 
       {/* <div id="dropbox-container" className="w-full">
         <a
