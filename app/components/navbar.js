@@ -27,9 +27,9 @@ const Navbar = () => {
           <a href="#" className="font-semibold font-sans text-emerald-900 text-lg">Michael R. Boswell</a>
 
           {/* CTA Button */}
-          <button className="bg-emerald-800 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition">
+          <a href="https://islandpress.org/books/climate-action-planning" className="bg-emerald-800 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition">
             See Book
-          </button>
+          </a>
         </div>
       </div>
     </nav>

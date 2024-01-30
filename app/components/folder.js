@@ -34,25 +34,14 @@ const Report = () => {
         data-app-key="wdyjw3bny9d2584"
       ></script>
       {/* Dropbox Embed Container */}
-      <iframe
-        src="https://drive.google.com/embeddedfolderview?id=1IZQjPhrYBngL3Y86F5DI52tRIf2UGxZb#list"
-        style={{ width: "1000px", height: "1000px", border: "0" }}
-      ></iframe>
-      <iframe
-        src="https://drive.google.com/embeddedfolderview?id=1IZQjPhrYBngL3Y86F5DI52tRIf2UGxZb#grid"
-        style={{ width: "1000px", height: "1000px", border: "0" }}
-      ></iframe>
-      <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQR5z3wkt3bub3Ai4qoPmRz5HgVG_m0pSGeTqoEWpHwQfqH7l7U734LyUsr4qWsVwCl-_pykzZeXC1q/pubhtml?widget=true&amp;headers=false"></iframe>
-      {/* https://docs.google.com/document/d/1ZBWDXXhJH5bB0gKgmLIgCF4SSQ9sxF3JB76cpvXvKvY/edit?usp=sharing */}
-
-      {/* <div id="dropbox-container" className="w-full">
+      <div id="dropbox-container" className="w-full">
         <a
           href="https://www.dropbox.com/scl/fi/gpcgfh2y4apqkteaxy4qp/California-CAP-Database-2023-1.xlsx?rlkey=5ind82cw4q2h6nh5zm8yjck5f&dl=0"
           class="dropbox-embed"
           data-height="1000px"
           data-width="100%"
         ></a>
-      </div> */}
+      </div>
     </section>
   );
 };

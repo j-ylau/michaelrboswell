@@ -3,7 +3,8 @@
 import React from 'react';
 import Navbar from './components/navbar';
 import Hero from './components/hero';
-import HeroDivider from './components/herodivider';
+import HeroDividerOne from './components/herodividerone';
+import HeroDividerTwo from './components/herodividertwo';
 import Details from './components/detail';
 import Map from './components/map';
 import Folder from './components/folder';
@@ -16,8 +17,9 @@ export default function Home() {
     <main className="">
       <Navbar />
       <Hero />
-      <HeroDivider />
+      <HeroDividerOne />
       <Folder />
+      <HeroDividerTwo />
       <Map />
       <Reports />
       {/* <Excel /> */}
