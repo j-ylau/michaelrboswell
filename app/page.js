@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Hero from './components/hero';
 import HeroDividerOne from './components/herodividerone';
 import HeroDividerTwo from './components/herodividertwo';
+import HeroDividerThree from './components/herodividerthree';
 import Details from './components/detail';
 import Map from './components/map';
 import Folder from './components/folder';
@@ -21,6 +22,7 @@ export default function Home() {
       <Folder />
       <HeroDividerTwo />
       <Map />
+      <HeroDividerThree />
       <Reports />
       {/* <Excel /> */}
       <Footer />

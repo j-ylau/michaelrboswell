@@ -1,27 +1,31 @@
-// components/hero.js
 import Image from 'next/image';
 import React from 'react';
 import Paper from '@mui/material/Paper';
 
 const Hero = () => {
   return (
-    <section className="flex flex-wrap md:flex-nowrap w-full items-center p-36 font-sans">
-      <div className="md:flex-1">
-        {/* Placeholder for the image - replace with an actual image */}
+    <section className="flex flex-wrap justify-center items-center w-full p-8 md:p-36 font-sans">
+      <div className="w-full lg:max-w-md mx-auto mb-6 md:mb-0">
         <Paper elevation={4}>
+          {/* Updated Image component usage */}
           <Image 
             src="/assets/hero3.png" // Replace with the cover image of your annual report
             alt="Annual Report Cover" 
-            layout="responsive"
             width={600} 
             height={475} 
-            objectFit="cover" // Adjust as needed for your image
+            style={{
+              // Adjust as needed for your image
+              objectFit: 'cover',
+              // Ensure the image is responsive
+              width: '100%',
+              height: '100%'
+            }}
           />
         </Paper>
       </div>
-      <div className="md:flex-1 flex flex-col justify-center p-8 text-center md:text-left">
+      <div className="w-full lg:max-w-md flex flex-col justify-center text-center md:text-left">
         <span className="text-sm font-semibold uppercase text-emerald-500">Our Annual Report</span>
-        <h1 className="text-4xl font-bold mb-4 mt-2 text-emerald-900">Driving Positive Change in Climate Action</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 mt-2 text-emerald-900">Driving Positive Change in Climate Action</h1>
         <p className="mb-6 text-emerald-900">Discover our commitment to sustainability and environmental responsibility in our latest annual report. Dive into the details of our initiatives and impact on climate change.</p>
         <button className="px-6 py-2 bg-emerald-900 text-white rounded hover:bg-green-700 transition-colors mb-4">Download Now</button>
         <a href="/signin" className="text-emerald-500 hover:text-emerald-900 transition-colors">Explore More</a>

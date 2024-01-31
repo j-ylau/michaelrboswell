@@ -37,7 +37,7 @@ const Report = () => {
       <div id="dropbox-container" className="w-full">
         <a
           href="https://www.dropbox.com/sh/75fk6u54v84l1gf/AAAe3brMbUmro2W0bGNllY15a?dl=0"
-          class="dropbox-embed"
+          // class="dropbox-embed"
           data-height="700px"
           data-width="100%"
         ></a>
