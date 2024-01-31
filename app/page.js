@@ -19,11 +19,11 @@ export default function Home() {
       <Navbar />
       <Hero />
       <HeroDividerOne />
-      <Folder />
+      <Folder id="folder"/>
       <HeroDividerTwo />
-      <Map />
+      <Map id="map"/>
       <HeroDividerThree />
-      <Reports />
+      <Reports id="reports"/>
       {/* <Excel /> */}
       <Footer />
     </main>

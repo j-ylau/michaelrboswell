@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect } from 'react';
 
 const Navbar = () => {
@@ -27,7 +28,7 @@ const Navbar = () => {
           <a href="#" className="font-semibold font-sans text-emerald-900 text-lg">Michael R. Boswell</a>
 
           {/* CTA Button */}
-          <a href="https://islandpress.org/books/climate-action-planning" className="bg-emerald-800 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition">
+          <a href="https://islandpress.org/books/climate-action-planning" className="bg-emerald-800 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition" target="_blank">
             See Book
           </a>
         </div>

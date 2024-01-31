@@ -27,8 +27,8 @@ const Hero = () => {
         <span className="text-sm font-semibold uppercase text-emerald-500">Our Annual Report</span>
         <h1 className="text-3xl md:text-4xl font-bold mb-4 mt-2 text-emerald-900">Driving Positive Change in Climate Action</h1>
         <p className="mb-6 text-emerald-900">Discover our commitment to sustainability and environmental responsibility in our latest annual report. Dive into the details of our initiatives and impact on climate change.</p>
-        <button className="px-6 py-2 bg-emerald-900 text-white rounded hover:bg-green-700 transition-colors mb-4">Download Now</button>
-        <a href="/signin" className="text-emerald-500 hover:text-emerald-900 transition-colors">Explore More</a>
+        <button href="https://www.dropbox.com/scl/fi/gpcgfh2y4apqkteaxy4qp/California-CAP-Database-2023-1.xlsx?rlkey=5ind82cw4q2h6nh5zm8yjck5f&dl=0" target="_blank" className="px-6 py-2 bg-emerald-900 text-white rounded hover:bg-green-700 transition-colors mb-4">Download Now</button>
+        <a href="https://www.dropbox.com/sh/75fk6u54v84l1gf/AAAe3brMbUmro2W0bGNllY15a?dl=0" target="_blank" className="text-emerald-500 hover:text-emerald-900 transition-colors">Explore More</a>
       </div>
     </section>
   );
