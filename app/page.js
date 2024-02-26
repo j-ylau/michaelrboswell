@@ -18,10 +18,10 @@ export default function Home() {
     <main className="">
       <Navbar />
       <Hero />
-      <HeroDividerOne />
-      <Folder id="folder"/>
-      <HeroDividerTwo />
+      {/* <HeroDividerOne /> */}
       <Map id="map"/>
+      <HeroDividerTwo />
+      <Folder id="folder"/>
       <HeroDividerThree />
       <Reports id="reports"/>
       {/* <Excel /> */}
