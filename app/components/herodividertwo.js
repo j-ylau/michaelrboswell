@@ -1,5 +1,5 @@
 import React from "react";
-import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+import InfoIcon from '@mui/icons-material/Info';
 import SummarizeIcon from '@mui/icons-material/Summarize';
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
@@ -20,10 +20,10 @@ const HeroDividerTwo = () => {
         <Grid item xs={12} sm={6} className="flex flex-col items-center text-center">
           <SummarizeIcon style={{ fontSize: iconSize, color: "#065f46" }} />
           <h2 className={`${headingSize} font-bold text-gray-800 mt-4`}>
-            Climate Action Reports
+          State of Climate Action Planning
           </h2>
           <p className="mt-2 text-gray-600">
-            Explore our comprehensive reports on climate action strategies and their impacts.
+          A brief report of the status of local climate action planning in California.
           </p>
           <Button 
             variant="contained" 
@@ -40,12 +40,12 @@ const HeroDividerTwo = () => {
         </Grid>
 
         <Grid item xs={12} sm={6} className="flex flex-col items-center text-center">
-          <PictureAsPdfIcon style={{ fontSize: iconSize, color: "#065f46" }} />
+          <InfoIcon style={{ fontSize: iconSize, color: "#065f46" }} />
           <h2 className={`${headingSize} font-bold text-gray-800 mt-4`}>
-            In-depth Analysis
+            CCAP Database Info
           </h2>
           <p className="mt-2 text-gray-600">
-            Detailed insights into policy frameworks and environmental impact assessments.
+          A description of the database history, compilation, and contents.
           </p>
           <Button 
             variant="contained" 

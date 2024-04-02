@@ -2,30 +2,27 @@
 "use client";
 import React from "react";
 
-// Consider using a utility like this to dynamically update the year
 const currentYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-emerald-900 text-white py-8 font-sans">
+    <footer className="w-full bg-emerald-900 py-8">
       <div className="max-w-6xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-          {/* Company Info Section with more accessible markup */}
-          <div>
-            <h5 className="text-xl font-semibold mb-4">Michael R. Boswell</h5>
-            <p className="text-base">
-              Empowering communities for a sustainable future.
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-8 md:space-y-0">
+          
+          <div className="space-y-4">
+            <h5 className="text-xl font-semibold text-white">Michael R. Boswell</h5>
+            <p className="text-base text-white">
+              California Climate Action Planning Database
             </p>
           </div>
 
-          {/* Useful Links Section with navigation role for better accessibility */}
-          <nav>
-            <h5 className="text-xl font-semibold mb-4">Useful Links</h5>
-            <ul className="text-base space-y-2">
-              {/* Enhance these list items with links */}
+          <nav className="flex flex-col md:flex-row items-start md:items-center">
+            <h5 className="text-xl font-semibold text-white mb-4 md:mb-0 md:mr-8">Useful Links</h5>
+            <ul className="flex flex-col md:flex-row md:space-x-6 text-white">
               <li>
                 <a
-                  href="https://ucm.calpoly.edu/faculty-experts/michael-boswell"
+                  href="https://www.linkedin.com/in/mrboswell/"
                   className="hover:text-emerald-300 transition-colors duration-300"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -40,7 +37,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  Climate Action
+                  CAP Guide
                 </a>
               </li>
               <li>
@@ -55,18 +52,9 @@ const Footer = () => {
               </li>
             </ul>
           </nav>
-
-          {/* Contact Section with more defined structure */}
-          <div>
-            <h5 className="text-xl font-semibold mb-4">Contact</h5>
-            <p className="text-base">Building 005, Room 313</p>
-            <p className="text-base">mboswell@calpoly.edu</p>
-            <p className="text-base">+1 805 756 1315</p>
-          </div>
         </div>
 
-        <div className="border-t border-white opacity-50 text-left py-6 mt-8">
-          {/* Dynamic year and improved readability */}
+        <div className="border-t border-gray-700 text-gray-300 py-6 mt-8">
           <p className="text-base">
             © {currentYear} Michael R. Boswell. All rights reserved.
           </p>

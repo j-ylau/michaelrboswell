@@ -1,53 +1,63 @@
 import Image from "next/image";
 import React from "react";
-import Paper from "@mui/material/Paper";
 
 const Hero = () => {
   return (
-    <section className="flex flex-wrap justify-center items-center w-full p-8 md:p-36 font-sans">
-      <div className="w-full lg:max-w-md mx-auto mb-6 md:mb-0">
-        <Paper elevation={4}>
-          {/* Updated Image component usage */}
-          <Image
-            src="/assets/hero3.png" // Replace with the cover image of your annual report
-            alt="Annual Report Cover"
-            width={600}
-            height={475}
-            style={{
-              // Adjust as needed for your image
-              objectFit: "cover",
-              // Ensure the image is responsive
-              width: "100%",
-              height: "100%",
-            }}
-          />
-        </Paper>
+    <section className="flex flex-wrap justify-center items-center w-full p-8 md:p-36 font-sans bg-white">
+      <div className="w-full lg:max-w-lg mx-auto mb-8 md:mb-0">
+        <Image
+          src="/assets/globe.png"
+          alt="Climate Action"
+          width={600}
+          height={475}
+          layout="responsive"
+          objectFit="cover"
+        />
       </div>
-      <div className="w-full lg:max-w-md flex flex-col justify-center items-center text-center md:items-start md:text-left">
-        <span className="text-sm font-semibold uppercase text-emerald-500">
-          Our Annual Report
-        </span>
-        <h1 className="text-3xl md:text-4xl font-bold mb-4 mt-2 text-emerald-900">
-          Driving Positive Change in Climate Action
-        </h1>
-        <p className="mb-6 text-emerald-900">
-          Discover our commitment to sustainability and environmental
-          responsibility in our latest annual report. Dive into the details of
-          our initiatives and impact on climate change.
+      <div className="w-full lg:max-w-lg flex flex-col justify-center items-center text-center md:items-start md:text-left">
+        <h2 className="text-xl md:text-2xl font-semibold mb-2 text-emerald-600">
+          California Climate Action Planning Database
+        </h2>
+        <p className="mb-4 text-gray-700">
+          The California Climate Action Plan Database (CCAP Database) catalogues
+          all known city and county climate action plans (CAPs) in California,
+          USA.
+        </p>
+        <ul className="list-disc pl-5 text-left mb-4 text-gray-600">
+          <li>
+            An MS Excel spreadsheet listing all jurisdictions, their CAP status,
+            and associated information
+          </li>
+          <li>An ArcGIS online map interface of the CAP data</li>
+          <li>A library of all CAPs in Adobe PDF format</li>
+          <li>Special reports associated with the database</li>
+        </ul>
+        <p className="mb-6 text-gray-700">
+          The CAP Database was created and is maintained by Professors{" "}
+          <a 
+            href="https://www.linkedin.com/in/mrboswell/" 
+            className="text-emerald-600 hover:text-emerald-300 transition-colors duration-300"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            Michael R. Boswell, Ph.D.
+          </a> and{" "}
+          <a 
+            href="https://www.linkedin.com/in/adrienne-greve-58718513/" 
+            className="text-emerald-600 hover:text-emerald-300 transition-colors duration-300"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+           Adrienne Greve, Ph.D.
+          </a> of California Polytechnic State University, San Luis Obispo. Available for all to use under a Creative Commons Attribution NonCommercial-ShareAlike 4.0 International License.
         </p>
         <a
-          href="https://www.dropbox.com/scl/fi/gpcgfh2y4apqkteaxy4qp/California-CAP-Database-2023-1.xlsx?rlkey=5ind82cw4q2h6nh5zm8yjck5f&dl=0"
+          href="https://bit.ly/CCAPReport_1"
           target="_blank"
-          className="px-6 py-2 bg-emerald-900 text-white rounded hover:bg-green-700 transition-colors mb-4"
+          rel="noopener noreferrer"
+          className="px-6 py-2 bg-emerald-600 text-white rounded hover:bg-emerald-500 transition-colors mb-4"
         >
-          Download Now
-        </a>
-        <a
-          href="https://www.dropbox.com/sh/75fk6u54v84l1gf/AAAe3brMbUmro2W0bGNllY15a?dl=0"
-          target="_blank"
-          className="text-emerald-500 hover:text-emerald-900 transition-colors"
-        >
-          Explore More
+          More Information
         </a>
       </div>
     </section>
