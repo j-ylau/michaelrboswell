@@ -40,7 +40,7 @@ const HeroDividerThree = () => {
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-6">
           <Card variant="outlined" className="transition hover:shadow-xl">
             <CardActionArea
-            href="https://www.dropbox.com/sh/75fk6u54v84l1gf/AAAe3brMbUmro2W0bGNllY15a?dl=0"
+            href="https://www.dropbox.com/scl/fi/gpcgfh2y4apqkteaxy4qp/California-CAP-Database-2023-1.xlsx?rlkey=5ind82cw4q2h6nh5zm8yjck5f&dl=0"
             target = "_blank"
               className="flex flex-col h-full justify-between"
             >
@@ -86,7 +86,7 @@ const HeroDividerThree = () => {
           <Card variant="outlined" className="transition hover:shadow-xl">
             <CardActionArea
               onClick={() => scrollToElement("reports")}
-              href="https://www.dropbox.com/scl/fi/gpcgfh2y4apqkteaxy4qp/California-CAP-Database-2023-1.xlsx?rlkey=5ind82cw4q2h6nh5zm8yjck5f&dl=0" 
+              href="https://www.dropbox.com/sh/75fk6u54v84l1gf/AAAe3brMbUmro2W0bGNllY15a?dl=0" 
               target = "_blank"
               className="flex flex-col h-full justify-between"
             >

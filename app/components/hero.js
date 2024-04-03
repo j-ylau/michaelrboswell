@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
       <div className="w-full lg:max-w-lg flex flex-col justify-center items-center text-center md:items-start md:text-left">
         <h2 className="text-xl md:text-2xl font-semibold mb-2 text-emerald-600">
-          California Climate Action Planning Database
+          California Climate Action Plan Database
         </h2>
         <p className="mb-4 text-gray-700">
           The California Climate Action Plan Database (CCAP Database) catalogues

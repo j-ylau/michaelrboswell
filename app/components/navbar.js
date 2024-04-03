@@ -31,14 +31,14 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center py-3">
           {/* Title on the left side */}
-          <a href="#" onClick={scrollToTop} className="font-semibold font-sans text-emerald-900 text-lg">California Climate Action Planning Database</a>
+          <a href="#" onClick={scrollToTop} className="font-semibold font-sans text-emerald-900 text-lg">California Climate Action Plan Database</a>
 
           {/* Name moved to the right side, adjusted to a smaller component */}
           <div className="flex items-center space-x-4">
             {/* Optional: If you want to keep "See Book" button, adjust its placement here */}
-            <a href="https://islandpress.org/books/climate-action-planning" className="bg-emerald-800 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition" target="_blank">
+            {/* <a href="https://islandpress.org/books/climate-action-planning" className="bg-emerald-800 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition" target="_blank">
               See Book
-            </a>
+            </a> */}
             {/* Author's name or another call to action */}
             <a href="#" className="font-semibold font-sans text-emerald-900 text-lg" onClick={scrollToTop}>Michael R. Boswell</a>
           </div>
