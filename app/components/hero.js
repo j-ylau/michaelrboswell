@@ -4,17 +4,19 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="flex flex-wrap justify-center items-center w-full p-8 md:p-36 font-sans bg-white">
-      <div className="w-full lg:max-w-lg mx-auto mb-8 md:mb-0">
+      {/* Adjust the div for the image to be half width on larger screens */}
+      <div className="w-full lg:w-1/2 lg:max-w-lg mx-auto mb-8 md:mb-0 flex justify-center">
         <Image
           src="/assets/globe.png"
           alt="Climate Action"
-          width={600}
-          height={475}
+          width={400}
+          height={275}
           layout="responsive"
           objectFit="cover"
         />
       </div>
-      <div className="w-full lg:max-w-lg flex flex-col justify-center items-center text-center md:items-start md:text-left">
+      {/* Adjust the div for the text to also be half width on larger screens */}
+      <div className="w-full lg:w-1/2 lg:max-w-lg flex flex-col justify-center items-center text-center md:items-start md:text-left">
         <h2 className="text-xl md:text-2xl font-semibold mb-2 text-emerald-600">
           California Climate Action Plan Database
         </h2>

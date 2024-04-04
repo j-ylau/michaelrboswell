@@ -35,12 +35,8 @@ const Navbar = () => {
 
           {/* Name moved to the right side, adjusted to a smaller component */}
           <div className="flex items-center space-x-4">
-            {/* Optional: If you want to keep "See Book" button, adjust its placement here */}
-            {/* <a href="https://islandpress.org/books/climate-action-planning" className="bg-emerald-800 text-white px-4 py-2 rounded-md hover:bg-emerald-700 transition" target="_blank">
-              See Book
-            </a> */}
             {/* Author's name or another call to action */}
-            <a href="#" className="font-semibold font-sans text-emerald-900 text-lg" onClick={scrollToTop}>Michael R. Boswell</a>
+            <a href="https://www.linkedin.com/in/mrboswell/" className="font-semibold font-sans text-emerald-900 text-lg" target="_blank" rel="noopener noreferrer">Michael R. Boswell</a>
           </div>
         </div>
       </div>
