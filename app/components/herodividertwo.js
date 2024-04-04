@@ -15,7 +15,7 @@ const HeroDividerTwo = () => {
   const buttonSize = isMobile ? "small" : "medium"; // Adjust button size based on the screen width
 
   return (
-    <section className="bg-gray-100 py-10 font-sans">
+    <section className="bg-gray-100 p-10 font-sans">
       <Grid container spacing={isMobile ? 2 : 4} alignItems="center" justifyContent="center">
         <Grid item xs={12} sm={6} className="flex flex-col items-center text-center">
           <SummarizeIcon style={{ fontSize: iconSize, color: "#065f46" }} />

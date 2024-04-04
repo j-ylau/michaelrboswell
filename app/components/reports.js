@@ -37,7 +37,7 @@ const Report = () => {
       {/* Dropbox Embed Container */}
       <div id="dropbox-container" className="w-full">
         <a
-          class="dropbox-embed"
+          className="dropbox-embed"
           href="https://www.dropbox.com/scl/fi/gpcgfh2y4apqkteaxy4qp/California-CAP-Database-2023-1.xlsx?rlkey=5ind82cw4q2h6nh5zm8yjck5f&dl=0"
           data-height="1000px"
           data-width="100%"
